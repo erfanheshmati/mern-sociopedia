@@ -219,8 +219,8 @@ export default function Form() {
                             sx={{
                                 m: "2rem 0",
                                 p: "1rem",
-                                backgroundColor: palette.primary.alt,
-                                "&:hover": { color: palette.primary.main }
+                                backgroundColor: palette.primary.light,
+                                "&:hover": { color: palette.primary.alt }
                             }}>
                             {isLogin ? "Login" : "Register"}
                         </Button>

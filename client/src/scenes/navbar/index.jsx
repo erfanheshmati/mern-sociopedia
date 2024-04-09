@@ -32,7 +32,7 @@ export default function Navbar() {
                     onClick={() => navigate("/home")}
                     sx={{
                         "&:hover": {
-                            color: primaryLight,
+                            opacity: "0.6",
                             cursor: "pointer",
                         }
                     }}
